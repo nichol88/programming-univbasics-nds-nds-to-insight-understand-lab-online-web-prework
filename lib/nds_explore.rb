@@ -1,4 +1,4 @@
-$LOAD_PATH.unshift(File.dirname(__FILE__))
+$LOAD_PATH.unshift(File.dirname(../directors_db))
 require 'directors_database'
 # Call the method directors_database to retrieve the NDS
 
