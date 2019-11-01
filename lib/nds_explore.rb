@@ -6,6 +6,7 @@ nds = directors_database
 
 def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
+  puts pp(nds)
   pp(nds)
 end
 
