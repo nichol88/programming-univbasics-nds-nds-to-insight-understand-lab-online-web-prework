@@ -19,8 +19,8 @@ def print_first_directors_movie_titles
 
   # for all movies, list title
 
-  i = 0
-  while i < stephen_movies.length
+  i = 1
+  while i <= stephen_movies.length
     puts stephen_movies[i][:title]
     i += 1
   end
