@@ -24,6 +24,6 @@ def print_first_directors_movie_titles
     stephen_movies.push(directors_database[0][:movies][i][:title])
     i += 1
   end
-  stephen_movies.join
+  stephen_movies.join("\n")
 
 end
