@@ -19,7 +19,7 @@ def print_first_directors_movie_titles
   # for all movies, list title
 
   i = 0
-  while i < stephen_movies.length
+  while i < directors_database[0][:movies].length
     puts directors_database[0][:movies][i][:title]
     i += 1
   end
